@@ -98,7 +98,7 @@ public class PremiereEcran extends JFrame {
 		
 		JComboBox AfficheLot = new JComboBox();
 		AfficheLot.setEditable(false);
-		requetes="SELECT nomLot FROM lot WHERE nomBac is NULL ";
+		requetes="SELECT nomLot FROM lot";
 		try {
 			st=cn.laconnexion().createStatement();
 			rst=st.executeQuery(requetes);

@@ -145,7 +145,7 @@ public class DeuxiemeEcran extends JFrame {
 				bvalue = NomBac.getSelectedItem().toString();
 				try {
 					st=cn.laconnexion().createStatement();
-					rst2=st.executeUpdate("UPDATE lot SET nomBac = '"+bvalue+"' WHERE NomLot ='"+PremiereEcran.Value+"'");
+					rst2=st.executeUpdate("UPDATE lot SET Bacnom = '"+bvalue+"' WHERE nomLot ='"+PremiereEcran.Value+"'");
 					
 				}
 					

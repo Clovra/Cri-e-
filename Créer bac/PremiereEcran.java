@@ -79,8 +79,9 @@ public class PremiereEcran extends JFrame {
 		TypeDeBac.setBackground(UIManager.getColor("CheckBox.background"));
 		
 		JComboBox AjouterTypeBac = new JComboBox();
-		AjouterTypeBac.addItem("2.50");
-		AjouterTypeBac.addItem("4");
+		AjouterTypeBac.addItem("F");
+		AjouterTypeBac.addItem("B");
+		AjouterTypeBac.addItem("A");
 		
 		JTextArea NomDuBac = new JTextArea();
 		NomDuBac.setEditable(false);
@@ -113,8 +114,6 @@ public class PremiereEcran extends JFrame {
 		deuxiemeEcran.setVisible(true);
 		PremiereEcran premiereEcran = new PremiereEcran();
 		premiereEcran.dispose();
-		System.out.println(lenom);
-		System.out.println(Value);
 			}
 		});
 		

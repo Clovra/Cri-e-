@@ -1,10 +1,10 @@
 <?php
 
 function getLot(){
-    $date = date("D");
+    $date = date("Y-m-d");
     require_once("sqlConnect.php"); 
     $bdd = getBDD();
-    $req = $bdd->query("SELECT * FROM lot WHERE annee = '$date'");
+    $req = $bdd->query("SELECT * FROM lot WHERE idDatePeche = '$date'");
     return $req;
 }
 

@@ -7,10 +7,6 @@
 
  </head>
  <body>
-    {# <ul class="row">
-        <p class="col-sm">bibliotèque Louis Jouvet</p>
-        <img src="t.png" style="width: 100px"/>
-    </ul> #}
     <div class="row">
         <li class="col">
         <a aria-current="page" href="index.php?uc=listelot">aficher lot</a>

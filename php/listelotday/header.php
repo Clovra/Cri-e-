@@ -1,4 +1,4 @@
-{# <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
  <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -6,11 +6,11 @@
  <title>lot</title>
 
  </head>
- <body>
+ <body class=container-fluid>
     <div class="row">
         <li class="col">
-        <a aria-current="page" href="index.php?uc=listelot">aficher lot</a>
+        <a aria-current="page" href="index.php?uc=listelot">afficher lot</a>
         </li>
     </div>
  </body>
-</html> #}
+</html>

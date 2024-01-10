@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
 <html>
- <head>
- <meta charset="utf-8" />
+  <head>
+  <meta charset="utf-8" />
 </head>
 
 <body>
@@ -14,17 +14,17 @@
               <tr>
                   <th>lot</th>
                   <th>date</th>
-                  <th>nom lot</th>
+                  <th>Qualite</th>
+                  <th>Bac</th>
               </tr>
-
           </thead>
           <tbody><?php while ($donnees = $req->fetch()){?>
             <tr > 
                 <td> <?php echo htmlspecialchars($donnees['id']); ?> </td>
                 <td> <?php echo htmlspecialchars($donnees['idDatePeche']); ?> </td> 
-                <td> <?php echo htmlspecialchars($donnees['nomLot']); ?> </td>
-                
-            </tr>
+                <td> <?php echo htmlspecialchars($donnees['idQualite']); ?> </td>
+                <td> <?php echo htmlspecialchars($donnees['idBac']); ?> </td>
+              </tr>
             <?php } $req->closeCursor(); ?>
           </tbody>
         </table>

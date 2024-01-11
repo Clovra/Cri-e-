@@ -12,23 +12,19 @@
         <table class="table table-bordered">
           <thead>
               <tr>
-                  <th>lot</th>
-                  <th>Bateau</th>
-                  <th>date péche</th>
-                  <th>Qualite</th>
-                  <th>Taille</th>
-                  <th>Bac</th>
+                <th>achteur</th>
+                <th>Bateau</th>
+                <th>date péche</th>
+                <th>prix</th>
               </tr>
           </thead>
           <tbody><?php while ($donnees = $req->fetch()){?>
             <tr > 
-                <td> <?php echo htmlspecialchars($donnees['id']); ?> </td>
-                <td> <?php echo htmlspecialchars($donnees['idBateau']); ?> </td>
-                <td> <?php echo htmlspecialchars($donnees['idDatePeche']); ?> </td> 
-                <td> <?php echo htmlspecialchars($donnees['idQualite']); ?> </td>
-                <td> <?php echo htmlspecialchars($donnees['idTaille']); ?> </td>
-                <td> <?php echo htmlspecialchars($donnees['idBac']); ?> </td>
-              </tr>
+              <td> <?php echo htmlspecialchars($donnees['idAcheteurLots']); ?> </td>
+              <td> <?php echo htmlspecialchars($donnees['idBateau']); ?> </td>
+              <td> <?php echo htmlspecialchars($donnees['idDatePeche']); ?> </td> 
+              <td> <?php echo htmlspecialchars($donnees['prixEcheresLots']); ?> </td>
+            </tr>
             <?php } $req->closeCursor(); ?>
           </tbody>
         </table>

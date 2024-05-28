@@ -1,4 +1,4 @@
-package userstory2;
+package Supprimer_Bac;
 
 import java.awt.EventQueue;
 
@@ -8,8 +8,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.border.EmptyBorder;
 
-import atelierpro1.PremiereEcran;
-import usertstory1.Connexion;
+import Supprimer_Bac.PremierEcran;
+import Supprimer_Bac.Connexion;
 
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
